@@ -1,0 +1,178 @@
+@media screen and (min-width:1366px) and (max-width:1920px) {
+	.pagewidth { width:1024px; margin:0 auto; position:relative}
+	.recommendChef ul li { margin-right:6%;}
+	}
+
+@media screen and (min-width:1204px) and (max-width:1920px) {
+	.fnav .fmenufirst {padding-left:13%}
+	.fnav .fmenuBlock { width:25%}
+	}
+		
+@media screen and (min-width:1100px) and (max-width:1280px) {
+	.socialnet {width:auto;}
+	.fnav .fmenuBlock {padding-left:6%; width:27%;}
+	.topNavLink a{width:30%;}
+	.profileBanner .slideContent{max-width:60%;}
+}
+	
+@media screen and (min-width:980px) and (max-width:1280px){
+    .orderList .orderForm dl dd{ width:55%;}
+	.yourOrder .orderReview, .yourOrder .orderTimeDetail, .orderChoiceBtn{ width:60%; margin:0 17% 20px;}
+	.yourOrder .orderTimeDetail, .orderChoiceBtn{ margin-top:5%;}
+}
+	
+@media screen and (min-width:1000px) and (max-width:1100px) {
+		.topNavLink a{width:35%;}
+		.profileBanner .slideContent{max-width:60%;}
+}
+
+
+@media screen and (max-width:1024px) {
+	.featured ul li h2 { line-height: 36px;}
+	.recommendChef {width: 47%;}
+	.appstore { width:50%}
+	.about h2 { font-size:24px;}
+	.fnav .fmenuBlock {padding-left: 6%;}
+	.socialnet { width:auto}
+	.topheader h1 { width:35%}
+	.topNavLink a{width:35%;}
+	.profileBanner{min-height:300px;}
+	.profileBanner .pagewidth{display:none;}
+	.profileBanner .slideContent{max-width:100%; background:none; position:relative; padding:0; max-height:none;}
+	.profileBanner .chefPic{float:none;}
+	.profileBanner .chefDetail{margin-left:0; margin-top:10px; color:#4a4a4a;}
+	.address h2{width:45%;}
+	.orderConfirm .thankMsg, .orderChoiceBtn, .moreOrder{ width:80%; margin:0 8% 20px;}
+	.chefInCity h2{ line-height:35px; width:100%; margin-bottom:15px;}
+	.chefInCity select, .selectBox-dropdown{ float:left;}   
+	
+}
+
+@media screen and (min-width:300px) and (max-width:979px){
+   .orderList .orderForm dl dt{ text-align:left; width:100%; margin-bottom:2%; font-size:22px;}
+   .orderList .orderForm dl dd{ width:100%;}
+   .orderList .orderForm dl{ width:70%; margin:0 15%;}
+   .orderList h2{ margin:11% 0 6%;}
+   .yourOrder .orderReview, .yourOrder .orderTimeDetail, .orderChoiceBtn{ width:80%; margin:0 8% 20px;}
+   .yourOrder .orderTimeDetail, .orderChoiceBtn{ margin-top:5%;}
+   
+}
+
+@media screen and (min-width:800px) and (max-width:900px) {
+	.chefReg ul { width:100%}
+	.commentsBlock{width:80%;}
+	.address{width:100%;}
+	.ChefProfileView .testimonial{width:100%; margin-top:15px;}
+	.commentsBlock .commentBox{width:84%;}
+}
+
+@media screen and (min-width:320px) and (max-width:800px) {
+	.featured ul li { float:none; width:90%; padding-bottom:10%}
+	.recommendChef ,.appstore{ width:90%; float:none; text-align:center; }
+	.appstore { margin:0 auto}
+	.slideContent { max-width:75%; padding:1%}
+	.slideContent h2  { font-size:45px; line-height:25px;}
+	.slideContent h3 {font-size:25px; line-height:25px;}
+	.slideContent a, .register a {font-size:100%}
+	.recommendChef ul li { margin:5% 6% 0 6% }
+	.recommendChef { margin-bottom:10%; width:100%; padding-left:0px}
+	.appstore p { margin:0 9%;}
+	.about { padding:65px 0}
+	.topmenu ,.fnav{ display:none}
+	.menu { display:block; margin-top:25px;}
+	.footerTwo  { display: block}
+	.footerTwo ul li .content {display: none;}
+	.footerTwo ul { width:100%}
+	.footerTwo ul li {float: left;margin: 0 !important; text-align: left !important;width: 100%; background:#F0F0F0}
+	.footerTwo ul li h3 { margin-bottom:0px; padding: 10px!important; cursor:pointer}
+	.footerTwo > ul > li { border-bottom:1px solid #454545}	
+	.footerTwo ul li img { float:right}
+	.footerTwo ul li a { color:#454545; font-size:15px; padding: 10px; display:block; text-decoration:none}
+	.footerTwo ul li a:hover { background:#b0b0b0}
+	.socialnet { width:38%; margin:0 auto; float:none}
+	.socialnet ul { float:none}
+	.tright { text-align:left}
+	.socialnet { margin:5% auto; width:162px;}
+	.socialnet ul li:last-child{margin-right:0;}
+	.chefReg ul { width:70%}
+	.innerheadr h1 { width:100%!important; text-align:center}
+	.footerbtm p.tright ,.footerbtm p.terms { float:none; text-align:center; padding:5px 0}
+	.chefReg .pagewidth { width:100%}
+	.topNavLink a{margin-bottom:20px; width:42%;}
+	.workDescription article h2{float:none; text-align:center; width:auto; background-position: center top; padding-left:0; padding-top:160px; padding-bottom:0;}
+	.workDescription article h2 span{padding-top:10px; padding-left:0;}
+	.workDescription article p{float:none; width:100%; padding-top:20px; padding-bottom:40px; text-align:center;}
+	.commentsBlock{width:100%;}
+	.address{width:100%;}
+	.ChefProfileView .testimonial{width:100%; margin-top:15px;}
+	.commentsBlock .commentBox{width:80%;}
+	.commentsBlock input[type="submit"]{width:25%;}
+	.userAccount a{margin:0 0 0 10px;}
+	.chefInCity ul li {  margin: 0 7%;   width: 33%;}
+	.chefInCity ul li.last { margin-right:11%}
+}
+
+@media screen and (min-width:320px) and (max-width:700px) {
+	.topNavLink a{width:60%;}
+	.yourOrder .orderReview dl dt, .yourOrder .orderReview dl dd{ width:100%;}
+	.yourOrder .orderReview dl dt{ min-height:15px; margin-bottom:5px;}
+	.yourOrder .orderReview dl dd{ margin-bottom:20px; min-height:25px;}
+	.orderChoiceBtn input[type="submit"]{ margin-right:1%; width:45%; font-size:15px;}
+	.orderTimeDetail dl dt{ font-size:20px;}
+}
+	
+@media screen and (min-width:320px) and (max-width:600px) {
+	.slideContent {display:none}
+	.recommendChef ul li { margin:5% 12% 0}
+	.tright { text-align:center}
+    .lookingChef a {background:url(../images/btnBG.png) center bottom ; padding:16px;  border:3px solid #d8a384; border-radius:4px; font-size:32px; color:#FFF; width:240px; display:block; margin-top:1%; margin:0 auto 5%}
+	.lookingChef { display: block}
+	.topNavLink a{width:70%;}
+	.profileBanner .slideContent{display:block}
+	.commentsBlock .commentBox{width:75%;}
+	.orderConfirm .thankMsg, .orderChoiceBtn, .moreOrder{ width:95%; margin:0 0 20px;}
+}
+	
+
+@media screen and (min-width:320px) and (max-width:568px) {
+	.slideContent {display:none}
+	.recommendChef ul li { margin:6% auto; float:none}
+	.appstore p { float:none; margin:3% auto}
+	.lookingChef a { font-size:17px; text-align:center}
+	.register a{padding:2%;}
+	.topNavLink a{width:80%;}
+	.commentsBlock .commentBox{width:70%;}
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+	.topheader h1 { width:44%}
+	.register a{padding:3% 5%;}
+	.address{padding-top:10px;}
+	.address h2{width:90%; padding-bottom:12px;}
+	.address .rightContent{padding-left:60px;}
+	.address .specialBox .rightContent, .address .contactBox .rightContent, .address .locationBox .rightContent{padding-top:0;}
+	.address .contactBox, .address .specialBox{margin-top:15px;}
+	.ChefProfileView .testimonial{margin-top:35px;}
+	.commentsBlock .commentBox{width:100%; margin-top:22px;}
+	.commentsBlock article{padding-bottom:25px;}
+	.commentsBlock .arrow{display:none;}
+	.commentsBlock input[type="submit"]{width:30%;}
+	.userAccount{left:0 !important; top:50px;}
+	.profileBanner{margin-top:30px;}
+	.owl-theme .owl-controls .owl-buttons .owl-prev, .owl-theme .owl-controls .owl-buttons .owl-next{top:280px;}
+	#owl-demo .item img{border-radius:148px;}
+	.owl-theme .owl-controls .owl-buttons .owl-prev{left:0;}
+	.owl-theme .owl-controls .owl-buttons .owl-next{right:0;}
+	.orderList .orderForm dl{ width:90%; margin:0 5%; }
+	.orderList h2{ margin:30px 0; font-size:32px; line-height:30px;}
+	 .yourOrder .orderReview, .yourOrder .orderTimeDetail, .orderChoiceBtn{ width:95%; margin:0 0 20px;}
+	 .yourOrder .orderReview{ padding:2.5%;}
+	 .orderChoiceBtn input[type="submit"]{ width:100%; margin-bottom:10px;}
+	 .orderChoiceBtn input[type="button"], .orderChoiceBtn input[type="submit"], .moreOrder input[type="button"]{ font-size:14px;}
+	 .chefInCity ul li, .chefInCity ul li.last { float: none;  margin: 5% auto;  width: 139px;}
+}
+@media screen and (min-width:320px) and (max-width:380px) {
+	.owl-theme .owl-controls .owl-buttons .owl-prev, .owl-theme .owl-controls .owl-buttons .owl-next{top:200px;}
+	.owl-theme .owl-controls .owl-buttons .owl-prev{left:0;}
+	.owl-theme .owl-controls .owl-buttons .owl-next{right:0;}
+}

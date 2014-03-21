@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 10, 2013 9:08:14 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="com.peakokk.domain.Usertype" table="user_type" catalog="peakokk">
+        <id name="userTypeId" type="java.lang.Integer">
+            <column name="userTypeId" />
+            <generator class="identity" />
+        </id>
+        <property name="userType" type="string">
+            <column name="userType" not-null="true" />
+        </property>
+       <!--  <property name="userType" type="com.finsdshef.domain.Usertype.userType">
+            <column name="userType" not-null="true"/>
+        </property>        
+         <property name="userType" column="userType">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">com.finsdshef.persistence.domain.UserTypeEnum</param>
+            </type>    
+        </property> -->
+    </class>
+</hibernate-mapping>

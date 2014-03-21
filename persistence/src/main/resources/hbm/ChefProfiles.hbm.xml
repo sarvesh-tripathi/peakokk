@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.peakokk.domain.ChefProfiles" table="chef_profiles" catalog="peakokk">
+    	<id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="firstName" type="string">
+            <column name="firstName" length="250" />
+        </property>
+        <property name="middleName" type="string">
+            <column name="middleName" length="250" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="lastName" length="250" />
+        </property>
+        <property name="emailId" type="string">
+            <column name="emailId" length="250" not-null="true"/>
+        </property>
+        <property name= "contactNumber" type= "java.lang.Integer">
+            <column name="quantity" not-null= "true"/>
+         </property>
+         <property name = "specialization" type="string">
+             <column name="specialization" length="250" />
+          </property>
+          <property name="topRecipes" type="string">
+          <column name="topRecipes" length="250" />
+          </property>
+          <property name="aboutMe" type="string">
+          <column name="aboutMe" length="250" />
+          </property>
+          <property name="profileImgUrl" type="string">
+          <column name="profileImgUrl" length="250" />
+          </property>
+          <property name="backgroundImgUrl" type="string">
+          <column name="backgroungImgUrl" length="250" />
+          </property>
+      </class>
+</hibernate-mapping>       
+         

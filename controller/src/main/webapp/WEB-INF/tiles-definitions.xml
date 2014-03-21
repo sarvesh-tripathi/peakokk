@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+  
+	<!--
+	We declare a new template named template-main.
+	This template is used for displaying the main page.
+	It has 4 attributes. These attributes are placeholder for our contents
+	For each attribute, we have assigned a corresponding JSP
+	-->	
+	<!-- SECTION FOR TEMPLATE LAYOUT DEFINITION  -->
+	<definition name="peakokk.homeLayout" template="/WEB-INF/jsp/layouts/homeLayout.jsp">
+		<put-attribute name="title" value="Welcome to Peakook." />
+		<put-attribute name="header" value="/WEB-INF/jsp/home/header.jsp" />		
+		<put-attribute name="body" value="/WEB-INF/jsp/home/index.jsp" />
+		<put-attribute name="upperFooter" value="/WEB-INF/jsp/home/upperFooter.jsp" />
+		<put-attribute name="lowerFooter" value="/WEB-INF/jsp/home/lowerFooter.jsp" />
+	</definition>
+	
+	<!-- SECTION FOR MVC VIEW HANDLER DEFINITION  -->
+ 	<definition name="home" extends="peakokk.homeLayout">	 	
+        <put-attribute name="body" value="/WEB-INF/jsp/home/index.jsp"/>
+    </definition> 
+    
+    <definition name="signIn" extends="peakokk.homeLayout">
+    	<put-attribute name="header" value="/WEB-INF/jsp/home/signInHeader.jsp" />	 	
+        <put-attribute name="body" value="/WEB-INF/jsp/home/signIn.jsp"/>
+    </definition>
+    
+    <definition name="forgotPassword" extends="peakokk.homeLayout">
+    	<put-attribute name="header" value="/WEB-INF/jsp/home/signInHeader.jsp" />	 	
+        <put-attribute name="body" value="/WEB-INF/jsp/home/forgotPassword.jsp"/>
+    </definition> 
+    
+    <definition name="register" extends="peakokk.homeLayout">    		 	
+        <put-attribute name="body" value="/WEB-INF/jsp/home/register.jsp"/>
+    </definition>
+    
+    <definition name="chefRegister" extends="peakokk.homeLayout">
+    	<put-attribute name="header" value="/WEB-INF/jsp/home/signInHeader.jsp" />	 	
+        <put-attribute name="body" value="/WEB-INF/jsp/home/chefRegister.jsp"/>
+    </definition>
+    
+    <definition name="userRegister" extends="peakokk.homeLayout">
+    	<put-attribute name="header" value="/WEB-INF/jsp/home/signInHeader.jsp" />	 	
+        <put-attribute name="body" value="/WEB-INF/jsp/home/userRegister.jsp"/>
+    </definition>
+    
+    <definition name="editProfile" extends="peakokk.homeLayout">
+    	<put-attribute name="header" value="/WEB-INF/jsp/home/signInHeader.jsp" />	 	
+        <put-attribute name="body" value="/WEB-INF/jsp/home/editProfile.jsp"/>
+    </definition>
+    
+    <definition name="howItWorks" extends="peakokk.homeLayout">
+    	<put-attribute name="header" value="/WEB-INF/jsp/home/signInHeader.jsp" />	 	
+        <put-attribute name="body" value="/WEB-INF/jsp/home/howItWorks.jsp"/>
+    </definition>
+    
+    <definition name="howItWorks2" extends="peakokk.homeLayout">
+    	<put-attribute name="header" value="/WEB-INF/jsp/home/signInHeader.jsp" />	 	
+        <put-attribute name="body" value="/WEB-INF/jsp/home/howItWorks2.jsp"/>
+    </definition>      
+</tiles-definitions>

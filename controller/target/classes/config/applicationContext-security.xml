@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+	  http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+      http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.xsd
+      http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+	<global-method-security secured-annotations="disabled" />
+	<context:property-placeholder location="classpath*:properties/*.properties" />
+
+	<!-- Authentication -->
+
+	<!-- Filters -->
+
+	<!-- beans:bean id="rememberMeFilter" class="org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter"> 
+		<beans:property name="authenticationManager" ref="authenticationManager" 
+		/> <beans:property name="rememberMeServices" ref="rememberMeServices" /> 
+		</beans:bean -->
+
+	<beans:bean id="logoutFilter"
+		class="com.peakokk.authentication.PeakokkLogoutFilter">
+		<!-- custom-filter position="LOGOUT_FILTER" / -->
+		<beans:constructor-arg value="/app/home?loggedout=true" />
+		<beans:constructor-arg>
+			<beans:list>
+				<beans:ref bean="rememberMeServices" />
+				<beans:bean id="logoutHandler"
+					class="org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler">
+				</beans:bean>
+			</beans:list>
+		</beans:constructor-arg>
+		<beans:property name="cookieName" value="${peakokk.SSO.Cookie.Name}" />
+		<beans:property name="filterProcessesUrl" value="/app/j_spring_security_logout" />
+	</beans:bean>
+
+	<beans:bean id="authenticationEntryPoint"
+		class="org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint">
+		<beans:property name="loginFormUrl" value="/app/signIn" />
+	</beans:bean>
+
+	<beans:bean id="authenticationProcessingFilter"
+		class="com.peakokk.authentication.AuthenticationProcessingFilter">
+		<beans:property name="cookieName" value="${peakokk.SSO.Cookie.Name}" />
+		<beans:property name="authenticationManager" ref="authenticationManager" />
+		<beans:property name="userDetailsService" ref="userDetailsService" />
+		<beans:property name="filterProcessesUrl" value="/app/j_spring_security_check" />
+		<beans:property name="authenticationSuccessHandler">
+			<beans:bean id="authenticationSuccessHandler"
+				class="org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler"
+				p:alwaysUseDefaultTargetUrl="false" p:defaultTargetUrl="/app/home" />
+		</beans:property>
+		<beans:property name="authenticationFailureHandler">
+			<beans:bean id="authenticationFailureHandler"
+				class="org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler"
+				p:defaultFailureUrl="/app/signIn?authfailed=true" />
+		</beans:property>
+	</beans:bean>
+
+	<!-- Authentication Manager -->
+
+	<!-- This will override the settings of authentication manager bean. -->
+	<authentication-manager alias="authenticationManager">
+		<authentication-provider user-service-ref="userDetailsService">
+			<password-encoder hash="sha" base64="true" />
+		</authentication-provider>
+		<!-- authentication-provider ref="rememberMeAuthenticationProvider" / -->
+	</authentication-manager>
+
+
+	<!-- Beans and Providers -->
+
+	<beans:bean id="userDetailsService"
+		class="com.peakokk.authentication.AuthenticationService">
+	</beans:bean>
+
+	<!--beans:bean id="rememberMeAuthenticationProvider" class="org.springframework.security.authentication.RememberMeAuthenticationProvider"> 
+		<beans:property name="key" value="${storistic.SSO.Cookie.Key}" /> </beans:bean -->
+
+	<beans:bean id="rememberMeServices"
+		class="com.peakokk.authentication.RememberMeServices">
+		<beans:property name="userDetailsService" ref="userDetailsService" />
+		<beans:property name="cookieName" value="${peakokk.SSO.Cookie.Name}" />
+		<beans:property name="key" value="${peakokk.SSO.Cookie.Key}" />
+	</beans:bean>
+
+
+</beans:beans>

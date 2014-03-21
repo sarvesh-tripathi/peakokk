@@ -1,0 +1,366 @@
+.topheader {padding:5px 25px}
+.topheader h1 {float:left; width:50%}
+.topheader nav.topmenu {float:right;}
+.topheader nav.topmenu ul { margin-top:27px;float:right;}
+.topheader nav.topmenu ul li  { float:left}
+.topheader nav.topmenu ul li a { display:block; font-size:14px; color:#231f20; font-weight:200; padding:0 10px; border-right:1px solid #231f20;}
+.topheader nav.topmenu ul li a.logoutNav {border-right:none;padding-right:0px;}
+.topheader nav.topmenu ul li a.last { border-right:0px!important} 
+.topheader nav.topmenu ul li a:hover { color:#ed451f}
+.topheader nav.topmenu .userInfo {position:relative;top:16px;font-size:14px;}
+.topheader nav.topmenu .userInfo .editProfile {color:#727272;}
+.slider { position:relative}
+.featured {padding:45px 0 60px}
+.featured ul li {float:left; text-align:center;width: 27%; padding:0 3%; position:relative}
+.featured ul li h2 {font-size:21px; color:#231f20; font-weight:normal; padding:45px 0 30px 0;}
+.featured ul li p {font-size:16px; color:#231f20; font-weight:normal;}
+.pagewidth { width:80%; margin:0 auto}
+.about { padding:65px 0 0 0; background:#f0f0f0 url(../images/arrow.png) no-repeat 172px -72px}
+.about h2 { font-size:24px; font-weight:bold; padding-bottom:40px;}
+.recommendChef { float:left; width:45%; padding:0 0 0 3%}
+.recommendChef ul li {float:left; width:125px; margin-right:10%; margin-bottom:5%}
+.recommendChef ul li figure img.displayN { display:none}
+.recommendChef ul li figure:hover img.displayN {display:block; transition: background-color 0.10s ease;}
+.recommendChef ul li figure:hover img.displayB {display:none; transition: background-color 0.10s ease;}
+.recommendChef ul li h2 {color:#f98629; font-size:15px; margin-bottom: 3px !important; padding-bottom:0px; font-weight:normal}
+.recommendChef ul li figure { padding-bottom:2px; height:125px;}
+.appstore { width:45%; float:right; text-align:}
+.appstore figure { text-align:center;}
+.appstore p { float:right; margin:0 7% 0 0}
+footer {padding:20px 0 ; background:#ffffff}
+.fnav {float:none; width:100%}
+.fnav { padding:15px 0}
+.fnav .fmenuBlock { float:left; width:27%; padding-left:50px;}
+.fnav ul li a { font-size:14px; color:#3d3d3d; text-decoration:none; background:url(../images/arrowmenu.png) no-repeat left 7px; display:block; padding-left:15px;}
+.fnav ul li a:hover { color:#f98629; background:url(../images/arrowmenuorg.png) no-repeat left 7px;}
+.fnav ul li {margin-bottom:5px;}
+.fnav h2 { font-size:24px}
+.socialnet { float:right}
+.socialnet ul { float:right; margin-bottom:0px}
+.socialnet ul li {float:left; margin-right:9px;  height:48px; width:48px;}
+.socialnet ul li a { display:block; height:48px; width:48px; background:url(../images/social.png) no-repeat 0 -49px;}
+.socialnet ul li a:hover { background-position: 0 0}
+.socialnet ul li.gplus a{background-position:-49px -49px}
+.socialnet ul li.gplus a:hover {background-position:-48px 0px}
+.socialnet ul li.youtube a{background-position:-97px -48px}
+.socialnet ul li.youtube a:hover {background-position:-96px 0px}
+.fmenuBlock { margin-bottom:0px;}
+.tright ,.terms{ float:left; padding-top:15px;}
+.menu { display:none; float:right; position:relative}
+.menu input[type='button'] { background:url(../images/image.png); height:35px; width:35px; cursor:pointer; border:none}
+.menu ul { display:none; position:absolute; top:45px; right:0; width:250px; z-index:99999}
+.menu ul li { float:none; width:100%; }
+.menu ul li a {color:#FFF; background:#ed451f; font-size:20px; display:block; padding:13px; border-bottom:1px solid #34373c}
+.menu ul li a:hover {background:#34373c;} 
+.footerTwo  { display:none}
+.footerTwo { background:}
+.fmenuBlock ul { margin-bottom:0px;}
+.fmenuBlock h2 { margin-bottom:20px;}
+.lookingChef { display:block}
+.lookingChef { display: none}
+.footerbtm { background:#f0f0f0; padding:25px 10px}
+.featured ul li .overlay { position:absolute; width:100%; background:url(../images/overlaybg1.png); top:0px; left:0px; height:100%; text-align:center; display:none; }
+.terms {float:right}
+.tright a {font-weight:bold; color:#595959; text-decoration:none}
+.chefReg h2 {font-size:30px; color:#ED451F; font-weight:600; font-weight:normal; text-align:center; padding:0 0 35px}
+.chefReg ul  {background:#ceced0; padding:35px 35px 0 35px; border-radius:5px; width:40%; margin: 0 auto}
+.chefReg ul li {padding-bottom:35px;}
+.chefReg ul li input[type='text'] ,.chefReg ul li input[type='password'],.chefReg ul li input[type='email'] { padding:12px 2%; width:96%; border:1px solid #f2f2f4; border-radius:3px;}
+.chefReg ul li input[type='submit'] {cursor:pointer; border:2px solid #d8a384; background:#ed451f; padding:7px 25px; color:#FFF; font-size:15px}
+.chefReg ul li input[type='submit']:hover { background:#545152} 
+.tcenter { text-align:center}
+.innerheadr {padding:40px 25px;}
+.innerheadr h1 {float:none; text-align:center; width:100%}
+
+.howit { background:url(../images/01%20How_it_works.jpg) no-repeat center top; height:1850px}
+.howit2 { background:url(../images/02%20How_it_works_user.jpg) no-repeat center top; height:1850px}
+.profile { background:url(../images/03%20Chef_profile_page.jpg) no-repeat center top; height:2440px}
+
+
+
+/******************************************* 02-Jan-2013 **********************************/
+.register{border:1px solid #cbcbcb; padding:8% 30px; border-radius:10px; text-align:center; margin:10% 0 5%;}
+.register a, .topNavLink a{display:inline-block; margin-right:20px; background:url(../images/btnBG.png) center bottom ; padding:2%;  border:3px solid #d8a384; border-radius:4px; font-size:20px; color:#FFF; width:20%; font-weight:600;}
+.howWork{padding:5% 0 0}
+.howWork .topNavLink{text-align:center;}
+.topNavLink a{width:26%;}
+.workDescription{background:#f0f0f0; padding:5% 5% 3%; margin-top:10px;}
+.workDescription article{background:url(../images/down-arrow.png) no-repeat center bottom; padding-bottom:96px; margin-bottom:85px;}
+.workDescription article h2{padding:54px 0 40px 175px; color:#222; font-weight:normal; line-height:30px; float:left; width:35%; background-position:left top; background-repeat:no-repeat; font-size:30px;} 
+.workDescription article h2 span{display:block; font-weight:bold; padding-left:15px;}
+.workDescription article h2.registerText{background-image:url(../images/register.png);}
+.workDescription article h2.creatProfile{background-image:url(../images/create_profile.png);}
+.workDescription article h2.takeOrder{background-image:url(../images/take_order.png);}
+.workDescription article h2.search{background-image:url(../images/search.png);}
+.workDescription article h2.order{background-image:url(../images/order.png);}
+.workDescription article p{float:right; padding-top:54px; font-size:14px; width:32%; line-height:17px;}
+.forgotPassword{padding-top:3px;}
+.forgotPassword a{color:#ED451F; float:right;}
+.chefReg ul li.restPassword{padding-bottom:5px;}
+header .pagewidth{position:relative;}
+.userAccount{position:absolute; top:0px; right:0; font-size:14px;}
+.userAccount span{padding:0 10px 0 0;}
+.userAccount a{margin:0 10px; color:#231F20;}
+.userAccount a:hover{color:#ED451F;}
+
+.profileBanner .chefPic{float:left; width:25.5%;}
+.profileBanner .chefPic img{width:100%; border:1px solid #575654;} 
+.profileBanner .chefDetail{margin-left:30%; color:#fff;}
+.profileBanner .slideContent h3{color:#ed451f; font-size:25px; font-weight:600;}
+.profileBanner .slideContent a{font-size:12px; text-align:center; width:30%; padding:1.5%; font-weight:600;}
+
+.ChefProfileView{padding:4% 0 0;}
+.ChefProfileView h2{font-size:23px; font-weight:500; color:#4a4a4a;}
+.ChefProfileView .testimonial{width:325px; float:right;}
+.ChefProfileView .testimonial li{font-size:12px; margin-top:15px;}
+.ChefProfileView .testimonial li .customerPic{float:left; margin:0 15px 8px 0;}
+.ChefProfileView .testimonial li p{font-size:12px; line-height:normal; padding-bottom:12px;}
+.ChefProfileView .testimonial li p a{color:#4a4a4a;} 
+
+.address{float:left; width:55%; padding-top:33px;}
+.address h2{background-repeat:no-repeat; padding:0 0 30px 55px; float:left; width:30%;  background-position:left top;}
+.address h2.location{background-image:url(../images/location.png); padding-top:10px; }
+.address h2.contact{background-image:url(../images/contact.png); padding-top:6px;}
+.address h2.specification{background-image:url(../images/sepacification.png); padding-top:23px;}
+.address p{line-height:normal; font-size:16px;}
+.address p a{color:#4a4a4a;} 
+.address p a:hover{color:#F9862f;}
+.address .rightContent{float:left; padding-top:14px; padding-left:28px;}
+.address .contactBox{margin-top:51px;}
+.address .specialBox{margin-top:40px;}
+
+.address .locationBox .rightContent{padding-top:14px;}
+.address .contactBox .rightContent{padding-top:6px;}
+.address .specialBox .rightContent{padding-top:23px;}
+
+.recipeCrousal{background:#f0f0f0; padding:2% 5%; margin-top:20px; width:90%}
+
+
+.commentsBlock{width:755px; margin:0 auto;}
+.commentsBlock h2{text-align:center; padding:5% 0}
+.commentsBlock article{padding-bottom:35px; width:100%; color:#595959;}
+.commentsBlock figure{width:56px; height:56px; float:left;}
+.commentsBlock .commentBox{position:relative; width:88%; float:right;}
+.commentsBlock textarea{background:#f0f0f0; width:98%; padding:5px 5px 5px 8px; resize:none; border:none; height:83px;}
+.commentsBlock .arrow{position:absolute; left:-22px; top:1px;}
+.commentsBlock input[type="submit"]{background:url(../images/btnBG.png) center bottom ; padding:1%; font-size:15px; color:#FFF; margin-top:1%; float:right; border:none; width:15%; cursor:pointer;}
+.commentsBlock article h4{font-size:12px; line-height:normal; padding-bottom:10px; font-weight:normal; margin-bottom:0;} 
+.commentsBlock article p{font-size:12px; line-height:16px; padding-bottom:12px;}
+.reply a{float:left; margin-right:10px; color:#595959;} 
+
+
+
+
+#owl-demo .item{display:inline-block; text-align:center; padding:0; margin:0 20px; color:#FFF;}
+#owl-demo .item img{border:9px solid #fff; box-shadow:0 5px 5px #dadada; border-radius:100px; width:100%;}
+.owl-theme .owl-controls .owl-buttons div {padding: 5px 9px;}
+.owl-theme .owl-buttons i{margin-top: 2px;}
+/*To move navigation buttons outside use these settings:*/ 
+.owl-theme .owl-controls .owl-buttons div {position: absolute;} 
+.owl-theme .owl-controls .owl-buttons .owl-prev{left: -45px; top:70px; background:url(../images/recipe/prev.png) left top; height:22px; width:9px;}  
+.owl-theme .owl-controls .owl-buttons .owl-next{right: -45px; top:70px; background:url(../images/recipe/next.png) left top; height:22px; width:9px;}
+#owl-demo .item h2{padding-top:10px; padding-bottom:12px;}
+#owl-demo .item p{color:#4a4a4a; font-size:12px; line-height:normal;}
+.owl-pagination{display:none !important;}
+
+
+
+
+
+
+
+/*chef in city*/
+.headingSelect {padding: 90px 0 50px;}
+.chefInCity select{ float:right;}
+.chefInCity h2 { float: left; font-size: 30px;}
+.chefInCity ul li { float:left;}
+.chefInCity ul li {float:left; width:13%; margin-right:15%; margin-bottom:5%}
+.chefInCity ul li.last { margin-right:0px;}
+.chefInCity ul li figure img.displayN { display:none}
+.chefInCity ul li figure:hover img.displayN {display:block; transition: background-color 0.10s ease;}
+.chefInCity ul li figure:hover img.displayB {display:none; transition: background-color 0.10s ease;}
+.chefInCity ul li h2 {color:#f98629; font-size:15px; margin-bottom: 3px !important; padding-bottom:0px; font-weight:normal; float:none;}
+.chefInCity ul li figure { padding-bottom:2px; height:139px;}
+
+
+
+
+/**DEEPTI 21-JAN-2014**/
+/*********ORDER START**********/
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('../fonts/raleway-medium-webfont.eot');
+    src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-medium-webfont.woff') format('woff'),
+         url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.eot');
+    src: url('../fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff'),
+         url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold-webfont.eot');
+    src: url('../fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff'),
+         url('../fonts/raleway-bold-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.select-style {padding: 0;  margin: 0;  border:1px solid #a0a0a0;  width:100%; overflow: hidden;  background-color:#fff; background: #fff url("../images/drop-down.png") no-repeat 95% 50%; border-radius:12px;}
+.select-style select {padding:12px 8px; width: 110%; border: none; box-shadow: none; background-color: transparent;  background-image: none; -webkit-appearance: none; -moz-appearance: none;appearance: none; color:#4a4a4a; font-size:18px;  font-family: 'ralewaymedium';}
+.select-style select:focus { outline: none;}
+
+.select-style1 {padding: 0;  margin: 0;  border:1px solid #a0a0a0;  width:30%; overflow: hidden;  background-color:#fff; background: #fff url("../images/drop-down.png") no-repeat 95% 50%; border-radius:12px; float:left; margin-right:1.8%;}
+.select-style1 select {padding:12px 8px; width: 120%; border: none; box-shadow: none; background-color: transparent;  background-image: none; -webkit-appearance: none; -moz-appearance: none;appearance: none; color:#4a4a4a; font-size:18px;  font-family: 'ralewaymedium';}
+.select-style1 select:focus { outline: none;}
+.select-style1:last-child{ margin-right:0;}
+
+.orderList{ width:100%; font-family:'ralewaymedium';}
+.orderList h2{ font-size:45px; color:#ed451f; margin:11.2% 0 4%; text-align:center;}
+.orderList .orderForm, .orderList .yourOrder, .orderList .orderConfirm{ background:#f0f0f0; padding:3.2%; width:93.6%;}
+.orderList .orderForm dl{ width:100%;}
+.orderList .orderForm dl dt, .orderList .orderForm dl dd{ float:left; margin-bottom:4.5%;}
+.orderList .orderForm dl dt{ width:28%; text-align:right; margin-right:2%; font-size:25px; color:#4a4a4a; clear:left; padding-top:1%;}
+.orderList .orderForm dl dd{ width:45%; text-align:left;}
+.orderList .orderForm dl dd .foodDesc{ margin-top:45px; width:100%; display:none;}
+.orderForm dl dd .foodDesc .foodDesc1{ border:1px solid #a0a0a0; padding:10px; width:95%; background:#fff; margin-bottom:15px;}
+.orderList .orderForm dl dd input[type='text']{ width:30%; border:1px solid #a0a0a0; border-radius:12px; -moz-border-radius:12px; -webkit-border-radius:12px; padding:12px 8px; float:left; margin-right:10px; font-family: 'ralewaymedium';  font-size: 18px;}
+.foodDesc .foodDesc1 h3{ font-size:18px; font-weight:600; color:#4a4a4a; margin-bottom:13px; font-family: 'ralewayregular';}
+.foodDesc .foodDesc1 p{ font-size:12px; color:#595959; margin-bottom:13px; line-height:20px; border-bottom:1px solid #ceced0; padding-bottom:16px; }
+.foodDesc .foodDesc1 .optionE{ width:100%;}
+.foodDesc .foodDesc1 .optionE p, .foodDesc .foodDesc1 .optionE input[type="radio"]{ float:left; }
+.foodDesc .foodDesc1 .optionE p{ font-size:16px; color:#4a4a4a; border-bottom:none; width:30%; font-weight:bold; margin:0; padding:0;}
+.foodDesc .foodDesc1 .optionE label{ font-size:14px; color:#595959; float:left; margin-right:56px;}
+.foodDesc .foodDesc2 input[type='text']{ min-height:130px; border:1px solid #a0a0a0; margin-top:5px; width:100%;}
+.btnBox{ margin-top:20px;}
+sss.btnBox input[type='submit'], .btnBox input[type='reset'], .orderList .orderForm dl dd input[type='submit']{ float:left; background:#ed451f; padding:10px 0; text-align:center; width:45%; margin-right:20px; border:3px solid #efbcb1; border-radius:5px; font-size:22px; color:#fff;   font-family: 'ralewayregular'; font-weight:600;}
+.time{ widt:30%;}
+.orderList .orderForm dl dd input[type='button']{background:#ed451f; padding:10px 0; text-align:center; width:45%; margin-right:20px; border:3px solid #efbcb1; border-radius:5px; font-size:22px; color:#fff;   font-family: 'ralewayregular'; font-weight:600;}
+.orderList .orderForm dl dd input[type='submit'], .orderList .orderForm dl dd input[type='button']{ float:right; margin-right:0px;}
+
+/*********ORDER END**********/
+
+/***YOUR ORDER START***/
+.yourOrder .orderReview{width:46%; margin:0 25% 20px;  border:1px solid #a0a0a0; border-radius:6px; padding:15px; background:#fff;}
+.yourOrder .orderReview dl dt, .yourOrder .orderReview dl dd { float:left; min-height:45px; margin-bottom:20px;}
+.yourOrder .orderReview dl dt{ width:25%; font-size:20px; color:#4a4a4a; font-weight:700;}
+.yourOrder .orderReview dl dd{ width:65%; font-size:18px; color:#4a4a4a; font-family: 'ralewayregular'; font-weight:600; float:right;}
+.yourOrder .orderReview dl dd p{ font-size:14px; color:#595959;}
+.yourOrder .orderReview dl dd p.extra{ margin-top:10px;}
+.yourOrder .orderReview dl dd p.extra span{ font-size:16px; font-weight:600;}
+
+.yourOrder .orderTimeDetail{ width:46%; margin:5% 25% 0;}
+.orderTimeDetail dl{width:100%;}
+.orderTimeDetail dl dt, .orderTimeDetail dl dd{ float:left; margin-bottom:25px;}
+.orderTimeDetail dl dt{ width:30%; clear:left; color:#4a4a4a; font-size:25px;}
+.orderTimeDetail dl dd{ width:50%; font-size:18px; color:#4a4a4a;}
+
+.orderChoiceBtn, .moreOrder{width:46%; margin:5% 25% 0;}
+.orderChoiceBtn input[type='button'], .orderChoiceBtn input[type='submit'], .moreOrder input[type='button']{ float:left; background:#ed451f; padding:10px 0; text-align:center; width:45%; margin-right:20px; border:3px solid #efbcb1; border-radius:5px; font-size:22px; color:#fff;   font-family: 'ralewayregular'; font-weight:600; cursor:pointer;}
+/***YOUR ORDER END***/
+
+
+/***Order Confirm START****/
+.orderConfirm .thankMsg{width:46%; margin:0 25%;  border:1px solid #a0a0a0; border-radius:6px; padding:12% 0; background:#fff; text-align:center;}
+.orderConfirm .thankMsg h4{ color:#ed451f; font-size:20px; font-weight:700;}
+.orderConfirm .thankMsg p{ color:#4a4a4a; font-size:18px;}
+.moreOrder input[type='button']{ width:70%; margin:0 15%;}
+/****ORDER CONFIRM END****/
+
+/***EDIT PROFILE***/
+.orderList .orderForm dl.editProfile{ width:100%; margin-top:10px;}
+.orderList .orderForm dl.editProfile dd input[type='text']{ width:96.5%; display:block; }
+.orderList .orderForm dl.editProfile dd input[type='checkbox']{ height:15px; width:15px; margin-top:10px; margin-right:10px;}
+.orderList .orderForm dl.editProfile dd label{ vertical-align:text-bottom; margin-right:20px; font-size:16px; color:#4a4a4a;}
+.orderList .orderForm dl.editProfile dd .chifAddress{ width:80%; float:right;}
+.orderList .orderForm dl.editProfile dd .chifAddress p{font-size:16px; color:#4a4a4a;}
+.orderList .orderForm dl.editProfile dd a.addressMap{ float:left; width:18%;}
+.orderList .orderForm dl.editProfile dd a.addressMap img{ display:block;}
+.orderList .orderForm dl.editProfile dd.chifContact{ position:relative;}
+.orderList .orderForm dl.editProfile dd.topRecipe input[type='text'], dl.editProfile dd.topRecipe textarea{ margin-bottom:20px;}
+.orderList .orderForm dl.editProfile dd a.addContact{ position:absolute; float:right; top:10px;}
+.orderList .orderForm dl.editProfile dd textarea{border:1px solid #a0a0a0; width:96.5%; resize:none; border-radius:12px; -moz-border-radius:12px; -webkit-border-radius:12px; padding:12px 8px; min-height:130px; }
+/*** EDIT PROFILE END***/
+
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	border:1px solid red;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.btn-primary {
+    background-color: #ed451f;
+    border-color:2px solid #efbcb1;
+    color: #FFFFFF;   
+}
+
+.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ed451f;
+    border:2px solid #efbcb1;
+    color: #FFFFFF;   
+    cursor: pointer;
+    display: inline-block;
+    font-size:22px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding:12px 0;
+    text-align: center;
+    vertical-align: middle;
+	width:39%;
+	margin:0px;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+.input{ width:53%;}
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
+    background-color:#fff;
+    cursor: not-allowed;
+	line-height:16px;
+	border:1px solid #a0a0a0;
+	border-radius:12px;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	font-family: 'ralewaymedium';
+    font-size: 18px;
+	float:left;
+    margin-right:2%;
+    padding: 12px 8px;
+}
+
+.errorMsg,.errorMsg2 {color: #ED451F}
+.errorMsg2 {font-size:18px;}

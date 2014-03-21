@@ -1,0 +1,51 @@
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+.slideContent, .profileBanner .slideContent {
+	background:url(../images/opacity.png);
+	padding:1% 2%;
+	position:absolute;
+	top:0;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	margin:auto;
+	z-index:999;
+	max-width:600px;
+	max-height:175px;
+	}
+
+.slideContent h2 {font-size:80px; color:#ed451f; font-weight:700; line-height:70px}
+.slideContent h3 {font-size:20px; color:#343434; font-weight:300; line-height:23px}
+.slideContent a {background:url(../images/btnBG.png) center bottom ; padding:2% 2%;  border:3px solid #d8a384; border-radius:4px; font-size:20px; color:#FFF; margin-top:1%; float:left}
+
+.profileBanner .slideContent{max-height:200px; max-width:730px; background:url(../images/slider/overlay.png); padding:3% 2%;}

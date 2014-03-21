@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.peakokk.domain.User" table="user" catalog="peakokk">
+    	<id name="userId" type="java.lang.Integer">
+            <column name="userId" />
+            <generator class="identity" />
+        </id>
+        <property name="username" type="string">
+            <column name="username" length="250" />
+        </property>
+       	<property name="emailId" type="string">
+            <column name="emailId" length="250" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="250" not-null="true" />
+        </property>
+       	<property name="firstName" type="string">
+            <column name="firstName" length="250" />
+        </property>
+        <property name="middleName" type="string">
+            <column name="middleName" length="250" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="lastName" length="250" not-null="true" />
+        </property>
+        <property name="birthDate" type="java.lang.Integer">
+            <column name="birthDate" />
+        </property>
+        <property name="birthMonth" type="java.lang.Integer">
+            <column name="birthMonth" />
+        </property>
+        <property name="birthYear" type="java.lang.Integer">
+            <column name="birthYear" />
+        </property>
+        <property name="gender" type="java.lang.Character">
+            <column name="gender" length="1" />
+        </property>
+        <property name="userTypeId" type="java.lang.Integer">
+            <column name="userTypeId" not-null="true" />
+        </property>
+        <property name="confirmPassword" type="string">
+            <column name="confirmPassword" length="250" not-null="true" />
+        </property>
+        <property name="termsCheckbox" type="boolean">
+            <column name="termsCheckbox" />
+        </property>
+        <property name="contactNumber" type="string">
+            <column name="contactNumber" length="11" />
+        </property>
+        
+    </class>
+</hibernate-mapping>

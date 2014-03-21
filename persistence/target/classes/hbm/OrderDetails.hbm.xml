@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+    <class name="com.peakokk.domain.OrderDetails" table="order_details" catalog="peakokk">
+    	<id name="orderId" type="java.lang.Integer">
+            <column name="orderId" />
+            <generator class="identity" />
+        </id>
+        <property name="orderNumber" type="java.lang.Integer">
+            <column name="orderNumber" not-null="true" />
+        </property>
+        <property name="cuisine" type="string">
+            <column name="cuisine" length="250" not-null="true"/>
+         </property>     
+        <property name= "foodItem" type= "string">
+            <column name="foodItem" length="250" not-null="true"/>
+        </property>
+        <property name= "quantity" type= "java.lang.Integer">
+            <column name="quantity" not-null= "true"/>
+         </property>
+         <property name= "deliveryOption" type= "string">
+             <column name= "deliveryOption" length = "250" not-null = "true"/>
+         </property>
+         <property name="dateOfOrder" type= "java.util.Date">
+             <column name = "dateOfOrder" not-null= "true"/>
+         </property>
+         <property name ="timeOfOrder" type = "java.sql.Time">
+             <column name = "timeOfOrder" not-null = "true"/>
+          </property>
+          <property name ="userId" type="java.lang.Integer">
+              <column name="userId" not-null="true"/>
+           </property>   
+          <property name="instruction" type="string">
+              <column name= "instruction" length="250" />
+            </property>
+       </class>
+</hibernate-mapping>                    
+         
+             
+         
+                   
